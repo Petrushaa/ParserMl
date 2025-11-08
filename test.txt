@@ -1,0 +1,17 @@
+{
+"candles": {
+	"metadata": {
+		"open": {"type": "double"},
+		"close": {"type": "double"},
+		"high": {"type": "double"},
+		"low": {"type": "double"},
+		"value": {"type": "double"},
+		"volume": {"type": "double"},
+		"begin": {"type": "datetime", "bytes": 19, "max_size": 0},
+		"end": {"type": "datetime", "bytes": 19, "max_size": 0}
+	},
+	"columns": ["open", "close", "high", "low", "value", "volume", "begin", "end"], 
+	"data": [
+		[141.57, 141.6, 141.6, 141.57, 2044577.2999999998, 14440, "2023-01-10 11:23:00", "2023-01-10 11:23:59"]
+	]
+}}
