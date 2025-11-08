@@ -2,7 +2,7 @@ import csv
 import time
 from gets_urls import get_news_urls
 from finam_parser import parse_finam_news
-from test import get_prices_with_offsets
+from MoscowAPI import get_prices_with_offsets
 from pathUrls import extract_news_urls_from_file
 
 
