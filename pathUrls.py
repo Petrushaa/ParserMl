@@ -19,5 +19,5 @@ def extract_news_urls_from_file(xml_filename: str) -> List[NewsUrl]:
 
 if __name__ == "__main__":
     news = extract_news_urls_from_file("finam_companies_sitemap.xml")
-    for new in news[3000::]:
+    for new in news[5000::]:
         print(f"URL: {new.url}, Last Modified: {new.lastmod}")
